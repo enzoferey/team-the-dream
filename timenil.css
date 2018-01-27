@@ -99,7 +99,7 @@
     border: 4px solid #ec952d;
     z-index: 1;
     width: 150px;
-    margin: 40px auto;
+    margin: 40px auto 60px;
     position: relative;
     border-radius: 10px;
     font-size: 30px;
@@ -126,6 +126,14 @@
 
 .timeline-container.right .content h2 {
     text-align: left;
+}
+
+.timeline hr {
+  border: 2px #ec952d solid;
+}
+
+.timeline-container.right, .timeline-container.left {
+  margin-bottom: 20px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
