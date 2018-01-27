@@ -26,7 +26,6 @@
   </head>
 
   <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
@@ -37,13 +36,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Visión</a>
+              <a id="button-vision" class="nav-link" href="#vision">Visión</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Historia</a>
+              <a id="button-historia" class="nav-link" href="#historia">Historia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#hall">Hall de fama</a>
+              <a id="button-hall" class="nav-link" href="#hall">Hall de fama</a>
             </li>
           </ul>
         </div>
@@ -70,8 +69,7 @@
     </header>
 
     <!-- Page Content -->
-    <section class="content-section-a">
-
+    <section id="vision" class="content-section-a">
       <div class="container">
         <div class="row">
           <div class="col-lg-5 ml-auto">
@@ -84,119 +82,51 @@
             <img class="img-fluid" src="img/logo.png" alt="">
           </div>
         </div>
-
       </div>
       <!-- /.container -->
     </section>
 
-    <section class="content-section-b title-section">
+    <section id="historia" class="content-section-b title-section">
       <div class="container text-center">
         <h2 class="mb-5">Historia</h2>
         <div class="row">
-          <div id="timenil">
-            <div class="timenil-vertical-line"></div>
-
-            <div class="timenil-node">
-              <div class="timenil-node-child-left timenil-node-child-left-theme">
+          <div class="timeline">
+            <div class="timeline-container left">
+              <div class="content">
+                <h2>11-14 Diciembre, 2015</h2>
                 <img src="./img/game-1.png" alt="">
-              </div>
-
-              <div class="timenil-node-center"></div>
-              <div class="timenil-node-trace"></div>
-              
-              <div class="timenil-node-child-right">
-                <div class="timenil-content-box">
-                  <div class="timenil-content-text">
-                    <p><h1>11-14 Diciembre, 2015</h1></p>
-                    <p>No country for young men</p>
-                  </div>
-                </div>
+                <p>No country for young men</p>
               </div>
             </div>
-
-            <div class="timenil-node">
-              <div class="timenil-node-separator">
-                2016
-              </div>
-            </div>
-
-            <div class="timenil-node">
-              <div class="timenil-node-child-left timenil-node-child-left-theme">
+            <div class="timeline-container right">
+              <div class="content">
+                <h2>29-31 Enero 2016</h2>
                 <img src="./img/game-5.png" alt="">
-              </div>
-
-              <div class="timenil-node-center"></div>
-              <div class="timenil-node-trace"></div>
-              
-              <div class="timenil-node-child-right">
-                <div class="timenil-content-box">
-                  <div class="timenil-content-text">
-                    <p><h1>29-31 Enero 2016</h1></p>
-                    <p>Persistance ritual</p>
-                  </div>
-                </div>
+                <p>Persistance ritual</p>
               </div>
             </div>
-
-            <div class="timenil-node">
-              <div class="timenil-node-child-left">
-                <div class="timenil-content-box">
-                    <div class="timenil-content-text">
-                      <p><h1>26-29 Agosto, 2016</h1></p>
-                      <p>Hapalochlaena</p>  
-                    </div>
-                </div>
-              </div>
-
-              <div class="timenil-node-center"></div>
-              <div class="timenil-node-trace"></div>
-              
-              <div class="timenil-node-child-right timenil-node-child-right-theme">
-                <img src="./img/game-2.gif" alt="">
+            <div class="timeline-container left">
+              <div class="content">
+                <h2>26-29 Agosto, 2016</h2>
+                <img src="./img/game-2.gif" alt="" style="width: 400px;">
+                <p>Hapalochlaena</p>
               </div>
             </div>
-
-            <div class="timenil-node">
-              <div class="timenil-node-separator">
-                2017
+            <div class="timeline-container right">
+              <div class="content">
+                <h2>20-22 Enero 2017</h2>
+                <img src="./img/game-3.png" alt="" style="width: 400px"/>
+                <p>The Amazing Microwave: The Extravagant Adventures of The Baroque Chef</p>
               </div>
             </div>
-
-            <div class="timenil-node">
-              <div class="timenil-node-child-left timenil-node-child-left-theme">
-                <div class="timenil-content-box">
-                  <img src="./img/game-3.png" style="width:100%; height:100%;"/>
-                </div>
-              </div>
-
-              <div class="timenil-node-center"></div>
-              <div class="timenil-node-trace"></div>
-              
-              <div class="timenil-node-child-right">
-                <div class="timenil-content-box">
-                  <div class="timenil-content-text">
-                    <p><h1>20-22 Enero 2017</h1></p>
-                    <p>The Amazing Microwave: The Extravagant Adventures of The Baroque Chef</p>
-                  </div>
-                </div>
-              </div>
+            <div class="timeline-age">
+              0 a.C. 
             </div>
-
-            <div class="timenil-node">
-              <div class="timenil-node-child-left">
-                <div class="timenil-content-box">
-                    <div class="timenil-content-text">
-                      <p><h1>22-25 Abril 2017</h1></p>
-                      <p>Teeny Tiny Little World</p>  
-                    </div>
-                </div>
-              </div>
-
-              <div class="timenil-node-center"></div>
-              <div class="timenil-node-trace"></div>
-              
-              <div class="timenil-node-child-right timenil-node-child-right-theme">
-                <img src="./img/game-4.png" alt="">
+            <div class="timeline-container left">
+              <div class="content">
+                <h2>22-25 Abril 2017</h2>
+                <img src="./img/game-4.png" alt="" style="width: 350px">
+                <p>Teeny Tiny Little World</p>
               </div>
             </div>
           </div>
@@ -211,25 +141,25 @@
       <div class="container">
         <h2 class="mb-5">Hall de fama</h2>
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 testimonial-top">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">
               <h5>Carlos García</h5>
-              <p class="font-weight-light mb-0">Ideólogo</p>
+              <p class="font-weight-light mb-0">Ideologist</p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 testimonial-top">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">
               <h5>Aleix Risco</h5>
-              <p class="font-weight-light mb-0">Genio e Ideólogo</p>
+              <p class="font-weight-light mb-0">Genius &amp; Ideologist</p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 testimonial-top">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">
               <h5>Enzo Ferey</h5>
-              <p class="font-weight-light mb-0">Web developer</p>
+              <p class="font-weight-light mb-0">Web Developer</p>
             </div>
           </div>
           <div class="col-lg-4 testimonial-top">
@@ -250,14 +180,35 @@
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <img class="img-fluid rounded-circle mb-3" src="img/testimonials-6.jpg" alt="">
               <h5>Miguel Boom</h5>
-              <p class="font-weight-light mb-0">Lead programmer</p>
+              <p class="font-weight-light mb-0">Lead Programmer</p>
             </div>
           </div>
           <div class="col-lg-4 testimonial-top">
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <img class="img-fluid rounded-circle mb-3" src="img/testimonials-7.jpg" alt="">
               <h5>Alessia Nigretti</h5>
-              <p class="font-weight-light mb-0">Unity expert</p>
+              <p class="font-weight-light mb-0">Unity Expert</p>
+            </div>
+          </div>
+          <div class="col-lg-4 testimonial-top">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-8.jpg" alt="">
+              <h5>Daniel Caballero</h5>
+              <p class="font-weight-light mb-0">Artist Knight</p>
+            </div>
+          </div>
+          <div class="col-lg-4 testimonial-top">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-9.jpeg" alt="">
+              <h5>Pablo Hernández</h5>
+              <p class="font-weight-light mb-0">UI Apprentice</p>
+            </div>
+          </div>
+          <div class="col-lg-4 testimonial-top">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <img class="img-fluid rounded-circle mb-3" src="img/testimonials-10.png" alt="">
+              <h5>Diego Díaz</h5>
+              <p class="font-weight-light mb-0">Cult Game Designer</p>
             </div>
           </div>
         </div>
@@ -267,7 +218,7 @@
 
     <!-- Footer -->
     <footer>
-      <div class="container">
+      <div class="container text-center">
         <p class="copyright text-muted small">Copyright &copy; Team The Dream y 2017. All Rights Reserved</p>
       </div>
     </footer>
@@ -277,6 +228,24 @@
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
+    <!-- Custom code -->
+    <script>
+      $("#button-vision").click(function(e) {
+        $('html, body').animate({
+            scrollTop: $("#vision").offset().top
+        }, 1000);
+      });
+      $("#button-historia").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#historia").offset().top
+        }, 1000);
+      });
+      $("#button-hall").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#hall").offset().top
+        }, 1000);
+      });
+    </script>
   </body>
 
 </html>
