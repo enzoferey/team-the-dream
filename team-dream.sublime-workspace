@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"op",
+				"opacity"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
 				"margin",
 				"margin-bottom"
 			],
@@ -118,10 +130,6 @@
 			[
 				"smaller",
 				"smallerLabel"
-			],
-			[
-				"pad",
-				"padding"
 			],
 			[
 				"delet",
@@ -340,10 +348,6 @@
 				"randomIndex"
 			],
 			[
-				"max",
-				"maxIndex"
-			],
-			[
 				"min",
 				"minIndex"
 			],
@@ -423,7 +427,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10132,
+				"buffer_size": 15143,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -432,7 +436,7 @@
 			"file": "css/landing-page.css",
 			"settings":
 			{
-				"buffer_size": 3187,
+				"buffer_size": 5052,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -441,7 +445,7 @@
 			"file": "timenil.css",
 			"settings":
 			{
-				"buffer_size": 3445,
+				"buffer_size": 3766,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -489,6 +493,9 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Enzo Ferey/Desktop/team-dream/manifest.json",
+		"/C/Users/Enzo Ferey/Desktop/team-dream/browserconfig.xml",
+		"/C/Users/Enzo Ferey/Desktop/team-dream/favicon/browserconfig.xml",
 		"/C/Users/Enzo Ferey/Desktop/team-dream/timenil.css",
 		"/C/Users/Enzo Ferey/Desktop/team-dream/example.html",
 		"/C/Users/Enzo Ferey/Desktop/team-dream/README.md",
@@ -605,6 +612,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"slideIndex",
+			"this.",
+			"#",
+			"$pages",
+			"$page",
+			"next",
+			"prev",
+			"img-fluid",
+			"img-flui",
+			"timeline-container",
+			"h2",
+			"#",
+			"#ec952d",
+			"#",
+			"section-heading",
 			".content",
 			"::before",
 			"z-index",
@@ -717,15 +739,6 @@
 			"FilterListIcon",
 			"Delete",
 			"createData",
-			"#ff4081",
-			"raised",
-			"contrast",
-			"e0e0e0",
-			"contrast",
-			"constrast",
-			"spacing",
-			"background",
-			"accent",
 			"#ff4081"
 		],
 		"highlight": true,
@@ -734,6 +747,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
 			"data."
 		],
 		"reverse": false,
@@ -751,7 +765,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -760,15 +774,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10132,
+						"buffer_size": 15143,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8977,
-								8977
+								13214,
+								13214
 							]
 						],
 						"settings":
@@ -778,10 +792,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4140.0,
+						"translation.y": 5905.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -790,15 +804,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3187,
+						"buffer_size": 5052,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								768,
-								768
+								4525,
+								4525
 							]
 						],
 						"settings":
@@ -808,10 +822,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 120.0,
+						"translation.y": 5440.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -820,15 +834,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3445,
+						"buffer_size": 3766,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1945,
-								1945
+								307,
+								307
 							]
 						],
 						"settings":
@@ -838,7 +852,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1681.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,

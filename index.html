@@ -23,13 +23,32 @@
     <!-- Time line CSS -->
     <link rel="stylesheet" href="timenil.css">
 
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#95170C">
+    <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#95170C">
+
   </head>
 
   <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><img src="/img/logo-letters.png" alt="" /></a>
+        <a class="navbar-brand" href="#"><img src="/img/nombre.svg" alt="" /></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -71,10 +90,27 @@
             <hr class="section-heading-spacer">
             <div class="clearfix"></div>
             <h2 class="section-heading">No hay nada como hacer un<br>juego de culto</h2>
-            <p class="lead">El poder de ingeniar y materializar juegos de CULTO nos hace infinitos.</p>
+            <ul class="slider">
+              <li class="slide">
+                <p class="lead">El poder de ingeniar y materializar juegos de CULTO nos hace infinitos.</p>
+              </li>
+              <li class="slide">
+                <p class="lead">Cada juego tiene un pasado y todo juego de CULTO tiene un futuro.</p>
+              </li>
+              <li class="slide">
+                <p class="lead">Hay tres tipos de personas. Los que hacen juegos de CULTO, los que miran cómo lo hacen y los que se preguntan qué pasó.</p>
+              </li>
+              <li class="slide">
+                <p class="lead">Todos los juegos de CULTO se ingenian y se materializan por una razón.</p>
+              </li>
+              <li class="slide">
+                <p class="lead">Un juego de CULTO no trata de impresionar a nadie. No se esfuerza en ser diferente de otro juego. No tiene que hacerlo. Es diferente.</p>
+              </li>
+            </ul>
+            <nav class="controls"><a class="slide-prev">Prev</a><a class="slide-next">Next</a></nav>
           </div>
           <div class="col-lg-5 mr-auto">
-            <img class="img-fluid" src="img/logo.png" alt="">
+            <img class="img-fluid" src="img/logo.svg" alt="">
           </div>
         </div>
       </div>
@@ -88,44 +124,44 @@
           <div class="timeline">
             <div class="timeline-container left">
               <div class="content">
-                <h2>11-14 Diciembre, 2015</h2>
+                <h3>11-14 Diciembre 2015</h3>
                 <hr/>
-                <img src="./img/game-1.png" alt="">
+                <img src="./img/game-1.gif" alt="" style="width: 400px;">
                 <p>No country for young men</p>
               </div>
             </div>
-            <div class="timeline-container right">
+            <div class="timeline-container right" style="top: -180px">
               <div class="content">
-                <h2>29-31 Enero 2016</h2>
+                <h3>29-31 Enero 2016</h3>
                 <hr/>
                 <img src="./img/game-5.png" alt="">
                 <p>Persistance ritual</p>
               </div>
             </div>
-            <div class="timeline-container left">
+            <div class="timeline-container left" style="top: -280px">
               <div class="content">
-                <h2>26-29 Agosto, 2016</h2>
+                <h3>26-29 Agosto 2016</h3>
                 <hr/>
                 <img src="./img/game-2.gif" alt="" style="width: 400px;">
                 <p>Hapalochlaena</p>
               </div>
             </div>
-            <div class="timeline-age">
+            <div class="timeline-age" style="top: -230px">
               0 a.C. 
             </div>
-            <div class="timeline-container right">
+            <div class="timeline-container right" style="top: -180px">
               <div class="content">
-                <h2>20-22 Enero 2017</h2>
+                <h3>20-22 Enero 2017</h3>
                 <hr/>
                 <img src="./img/game-3.png" alt="" style="width: 400px"/>
                 <p>The Amazing Microwave: The Extravagant Adventures of The Baroque Chef</p>
               </div>
             </div>
-            <div class="timeline-container left">
+            <div class="timeline-container left" style="top: -320px">
               <div class="content">
-                <h2>22-25 Abril 2017</h2>
+                <h3>22-25 Abril 2017</h3>
                 <hr/>
-                <img src="./img/game-4.png" alt="" style="width: 350px">
+                <img src="./img/game-4.png" alt="" style="width: 400px">
                 <p>Teeny Tiny Little World</p>
               </div>
             </div>
@@ -252,6 +288,95 @@
             scrollTop: $("#hall").offset().top
         }, 1000);
       });
+
+      var Slider = function () {
+        this.$slider = $('.slider');
+        this.$slides = this.$slider.find('.slide');
+        this.$container = $('<div class="window" />');
+        
+        this.$pager = $('<nav class="pager" />');
+        this.$pages = null;
+        
+        this.$controls = this.$slider.next('.controls');
+        this.$prev = this.$controls.find('.slide-prev');
+        this.$next = this.$controls.find('.slide-next');
+        
+        this.slideCount = this.$slides.length;
+        this.slideIndex = 0;
+        this.isSliding = false;
+        
+        this.init();
+        setTimeout(this.nextSlideTimer.bind(this), 5000);
+      };
+
+      Slider.prototype.nextSlideTimer = function () {
+        this.slide(++this.slideIndex%this.slideCount);
+        setTimeout(this.nextSlideTimer.bind(this), 5000);
+      }
+
+      Slider.prototype.init = function () {
+        this.$container.height(this.$slides.height());
+        this.$slider.wrap(this.$container);  
+        
+        this.buildPages();
+        this.attachEvents();
+        
+        this.slide(this.slideIndex);
+      };
+
+      Slider.prototype.attachEvents = function () {
+        
+        var self = this;
+        
+        this.$prev.on('click', this.prev.bind(this));
+        this.$next.on('click', this.next.bind(this));
+        
+        this.$pager.find('.page').each(function (i) {
+          
+          $(this).on('click', function () {
+              self.slideIndex = i;
+              self.slide(i);
+          });
+        });
+      };
+
+      Slider.prototype.prev = function () {
+        
+        if(this.slideIndex <= 0) return;
+        this.slide(--this.slideIndex);
+      };
+
+      Slider.prototype.next = function () {
+        
+        if(this.slideIndex >= this.slideCount-1) return;
+        this.slide(++this.slideIndex);
+      };
+
+      Slider.prototype.slide = function (index) {
+        if(index < 0 || index > this.slideCount-1 || this.isSliding) {
+          console.log("no active");
+          return;
+        }
+
+        this.$slides.removeClass('active').eq(index).addClass('active');
+        this.$pages.removeClass('active').eq(index).addClass('active');
+        
+      };
+
+      Slider.prototype.buildPages = function () {
+        
+        for(var i = 0; i < this.slideCount; i++) {
+          this.$pager.append('<a class="page" />');
+        }
+        
+        // store pages
+        this.$pages = this.$pager.find('.page');
+        
+        // insert pager
+        this.$pager.insertAfter(this.$controls);
+      };
+
+      new Slider();
     </script>
   </body>
 

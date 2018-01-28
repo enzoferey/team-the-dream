@@ -7,6 +7,7 @@
     position: relative;
     margin: 0 auto;
     width: 100%;
+    margin-bottom: -280px;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -14,11 +15,12 @@
     content: '';
     position: absolute;
     width: 6px;
-    background-color: #ec952d;
-    top: 0;
+    background: #95170C;
+    top: 15px;
     bottom: 0;
     left: 50%;
     margin-left: -3px;
+    max-height: 2000px;
 }
 
 /* Container around content */
@@ -37,7 +39,8 @@
     height: 25px;
     right: -12px;
     background-color: white;
-    border: 4px solid #ec952d;
+    border: 4px #95170C solid;
+    padding: 5px;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -96,7 +99,7 @@
 
 .timeline-age {
     background-color: white;
-    border: 4px solid #ec952d;
+    border: 4px solid #95170C;
     z-index: 1;
     width: 150px;
     margin: 40px auto 60px;
@@ -120,27 +123,28 @@
     max-width: 100%;
 }
 
-.timeline-container.left .content h2 {
+.timeline-container.left .content h3 {
     text-align: right;
 }
 
-.timeline-container.right .content h2 {
+.timeline-container.right .content h3 {
     text-align: left;
 }
 
 .timeline hr {
-  border: 2px #ec952d solid;
-}
-
-.timeline-container.right, .timeline-container.left {
-  margin-bottom: 20px;
+  border: 2px #95170C solid;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media all and (max-width: 600px) {
+  .timeline {
+    margin-bottom: 0;
+  }
+
   /* Place the timelime to the left */
   .timeline::after {
     left: 31px;
+    max-height: initial;
   }
   
   /* Full-width containers */
@@ -148,6 +152,10 @@
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
+  }
+
+  .timeline-container.right, .timeline-container.left {
+    top: 0 !important;
   }
   
   /* Make sure that all arrows are pointing leftwards 
@@ -168,7 +176,7 @@
     left: 0%;
   }
 
-  .timeline-container.left .content h2, .timeline-container.right .content h2 {
+  .timeline-container.left .content h3, .timeline-container.right .content h3 {
     text-align: left;
   }
 
@@ -178,5 +186,12 @@
 
   .timeline-age {
     margin-left: 10px;
+    top: 0 !important;
+  }
+}
+
+@media all and (min-width: 600px) and (max-width: 990px) {
+  .timeline::after {
+    max-height: 1600px;
   }
 }
